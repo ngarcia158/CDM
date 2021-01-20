@@ -3,7 +3,6 @@
 div.row::after{
     clear: both;
     content: "";
-    display: table;
 }
 div[class^="col-"]{
     float: left;
