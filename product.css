@@ -1,3 +1,19 @@
+img{
+    margin: 0px;
+}
+img#projectpic1{
+    margin-top: 30px;
+}
+img#badge2{
+    float: left;
+    margin-bottom: 50px; 
+}
+img#badge1{
+    float:left;
+    margin-bottom: 50px;
+}
+
+
 
 body{
 
@@ -103,7 +119,4 @@ div.nav{
 }
 p#names{
     display: inline;
-}
-#margin{
-    margin-top: 300px;
 }
