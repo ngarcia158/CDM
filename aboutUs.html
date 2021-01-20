@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Cognitive Micro Designs</title>
+        <link href="reset.css" rel="stylesheet" />
+        <link href="indexgrids.css" rel="stylesheet" />
+        <link href="aboutUs.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+    <body>
+       <div class="nav">
+            <div id="toggleMenu" onclick="toggleMenu()"></div>
+                <nav id="menu">
+                    <img src="images/logo.jpg" alt="Logo" height="200px" width="40px" />
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="products.html">Product</a></li>
+
+                    </ul>
+                </nav>
+                <script>
+                    var toggleStatus = 1;
+                    function toggleMenu() {
+                        if(toggleStatus == 1){
+                            document.getElementById("menu").style.left = "-240px";
+                            toggleStatus = 0;
+                        }
+                        else if(toggleStatus == 0){
+                            document.getElementById("menu").style.left = "0px";
+                            toggleStatus = 1;
+                        }
+                    }
+                </script>
+                    <h1 id="title">
+                        Cognitive Micro designs
+                    </h1>
+       </div>
+       <div class="row">
+        <article id="top">
+            <div class="col-3-5">
+
+                <br>
+                <br>
+                <h2>
+                    Our vision
+                </h2>
+
+                <p>
+                   Nick started off with a dream to make this world free of trash
+                   and wanted to make our world sustainable for the future and not pollute
+                   our beautiful planet. He soon realized that was too hard to achieve 
+                   by himself in one lifetime and especially with the current 
+                   state of the world so he made it his mission to at least make an imapct
+                   that will make the world better for the future. This is why he started 
+                   CMD to make a change for the better. <br> <br>
+                   He realized in this world we are alll about technology and we must make 
+                   a change for the better now while the industry is still growing and before we go into 
+                   the point of no return and we can't amke the change for the better. Nick
+                   brings power and effeciency into one compact processor and a great price
+                   for anybody to enjoy. He wanted to make first time buyers
+                   not scared to go into this market while protecting the environment
+
+                </p>
+               
+
+            </div>
+
+            <div class="col-2-5">
+                <img id="Foods" src="images/mecrop.jpg" alt="myself" width="350px" height="250px">
+            </div>
+        </article>
+    </div>
+    <div class="row">
+        <section id="bottom">
+
+                <div href="row">
+                    
+                    <img id="sitemap" src="images/aboutUs1.jpg" alt="products" height="250px" width="250px" style="margin-left: 30px; margin-right: 30px;">
+
+
+                   <img id="sitemap" src="images/family.png" alt="Products" height="250px" width="250px" style="margin-left: 30px; margin-right: 30px;">
+                    
+
+                    <img id="sitemap" src="images/aboutUs3.jpg" alt="products" height="250px" width="250px" style="margin-left: 30px; margin-right: 30px;"> 
+                    
+
+                </div>
+    
+    
+        </section>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Cognitive Micro Designs</title>
+        <link href="reset.css" rel="stylesheet" />
+        <link href="indexgrids.css" rel="stylesheet" />
+        <link href="product.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+    <body>
+       <div class="nav">
+            <div id="toggleMenu" onclick="toggleMenu()"></div>
+                <nav id="menu">
+                    <img src="images/logo.jpg" alt="Logo" height="200px" width="40px" />
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="products.html">Product</a></li>
+
+                    </ul>
+                </nav>
+                <script>
+                    var toggleStatus = 1;
+                    function toggleMenu() {
+                        if(toggleStatus == 1){
+                            document.getElementById("menu").style.left = "-240px";
+                            toggleStatus = 0;
+                        }
+                        else if(toggleStatus == 0){
+                            document.getElementById("menu").style.left = "0px";
+                            toggleStatus = 1;
+                        }
+                    }
+                </script>
+                    <h1 id="title">
+                        Cognitive Micro designs
+                    </h1>
+       </div>
+       <div class="row">
+        <h2 class="skills">Skills</h2>
+        <img src="images/html5badge.png" height="225px" width="225px" id="badge1"/>
+        <img src="images/css.png" height="225px" width="225px" id="badge2"/>
+    </div>
+    </body>
+</html>

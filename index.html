@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Cognitive Micro Designs</title>
+        <link href="reset.css" rel="stylesheet" />
+        <link href="indexgrids.css" rel="stylesheet" />
+        <link href="index.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+    <body>
+       <div class="nav">
+            <div id="toggleMenu" onclick="toggleMenu()"></div>
+                <nav id="menu">
+                    <img src="images/logo.jpg" alt="Logo" height="200px" width="40px" />
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="products.html">Product</a></li>
+
+                    </ul>
+                </nav>
+                <script>
+                    var toggleStatus = 1;
+                    function toggleMenu() {
+                        if(toggleStatus == 1){
+                            document.getElementById("menu").style.left = "-240px";
+                            toggleStatus = 0;
+                        }
+                        else if(toggleStatus == 0){
+                            document.getElementById("menu").style.left = "0px";
+                            toggleStatus = 1;
+                        }
+                    }
+                </script>
+                    <h1 id="title">
+                        Cognitive Micro designs
+                    </h1>
+       </div>
+
+            
+        
+        <div class="row">
+            <article id="top">
+                <div class="col-3-5">
+
+                    <br>
+                    <br>
+                    <h2>
+                        What We Are About
+                    </h2>
+
+                    <p>
+                        We are a new buisness trying to be the first 
+                        green company with reusing as much as we can and 
+                        bringing the savings we are making to you the customer.
+                        Now we know that most of the processing parts cannot be reused
+                        but our packaging will be completly reused carboard and paper when we can and
+                        we guarntee no plastic to be used to package. Our sole purpose it to
+                        bring the casual person who does not need a processor heavy computer
+                        but rather something to get them to point A - B seamlessly without
+                        having so much extra compennets that most people dont end up using
+
+                   
+
+                </div>
+
+                <div class="col-2-5">
+                    <img id="Foods" src="images/cpu.jpg" alt="BurgervsHealthy" width="400px" height="250px">
+                </div>
+            </article>
+        </div>
+        <div class="row">
+
+        </div>
+        
+        <div class="row">
+            <article id="middle">
+                <div class="col-2-5">
+                   <a href="weightloss.html"><img id="Foods" src="images/logo.jpg" alt="logo" width="400" height="250"/></a> 
+                </div>
+
+                <div class="col-3-5">
+                    <br>
+                    <br>
+                    <br>
+
+                    <p>
+                       We bring power and efficiency into one small priced prosessing unit
+                       we currently only have two products so we cna devote all of our time and effort to them
+                       putting maximum effort into it. We plan on relasing more products when 
+                       the time is right but right now since we are so small its best to
+                       keep our productions small.
+                    </p>
+
+                </div>
+            </article>
+        </div>
+
+        <div class="row">
+            <section id="bottom">
+                    <div class="row">
+                        <a href="products.html"><h2>Our Products</h2></a>
+                    </div>
+
+                    <div href="row">
+                        
+                        
+
+                            <a href="products.html" id="products"><img id="sitemap" src="images/4-core.jpg" alt="Products" height="200px" width="20%"><p id="names">4-core</p></a>
+                        
+
+                            <a href="products.html" id="products"><img id="sitemap" src="images/8core.jpg" alt="products" height="200px" width="20%"> <p id="names">8-core</p></a>
+                        
+
+                        
+                    </div>
+        
+        
+            </section>
+        </div>
+       
+        
+    </body>
+</html>
